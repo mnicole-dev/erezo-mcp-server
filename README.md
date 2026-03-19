@@ -1,4 +1,4 @@
-# @mnicoledev/erezo-mcp-server
+# @mnicole-dev/erezo-mcp-server
 
 MCP server for the [eRezo](https://www.erezo.fr) API — manage your professional contacts and events directly from Claude.
 
@@ -38,13 +38,13 @@ MCP server for the [eRezo](https://www.erezo.fr) API — manage your professiona
 ## Installation
 
 ```bash
-npm install -g @mnicoledev/erezo-mcp-server
+npm install -g @mnicole-dev/erezo-mcp-server
 ```
 
 Or run directly with `npx`:
 
 ```bash
-npx -y @mnicoledev/erezo-mcp-server
+npx -y @mnicole-dev/erezo-mcp-server
 ```
 
 ## Configuration
@@ -59,7 +59,7 @@ Add to `~/.claude.json`:
     "erezo": {
       "type": "stdio",
       "command": "npx",
-      "args": ["-y", "@mnicoledev/erezo-mcp-server"],
+      "args": ["-y", "@mnicole-dev/erezo-mcp-server"],
       "env": {
         "EREZO_API_KEY": "your-api-key"
       }
@@ -77,7 +77,7 @@ Add to `claude_desktop_config.json`:
   "mcpServers": {
     "erezo": {
       "command": "npx",
-      "args": ["-y", "@mnicoledev/erezo-mcp-server"],
+      "args": ["-y", "@mnicole-dev/erezo-mcp-server"],
       "env": {
         "EREZO_API_KEY": "your-api-key"
       }
@@ -95,7 +95,7 @@ Add to Cursor MCP settings:
   "mcpServers": {
     "erezo": {
       "command": "npx",
-      "args": ["-y", "@mnicoledev/erezo-mcp-server"],
+      "args": ["-y", "@mnicole-dev/erezo-mcp-server"],
       "env": {
         "EREZO_API_KEY": "your-api-key"
       }

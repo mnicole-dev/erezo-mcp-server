@@ -22,7 +22,7 @@ export async function apiFetch(
   return fetch(url, {
     ...fetchOptions,
     headers: {
-      'Authorization': `Bearer ${getApiKey()}`,
+      'X-Api-Key': getApiKey(),
       'Content-Type': 'application/json',
       ...fetchOptions?.headers,
     },
